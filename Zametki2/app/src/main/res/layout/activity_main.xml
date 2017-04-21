@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tec5"
+    tools:context="com.elizaveta.zametki.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:id="@+id/linearLayout">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="346dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="341dp"
+                    android:layout_height="87dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="ДОБРО ПОЖАЛОВАТЬ!"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="36sp"
+                    android:textStyle="bold|italic"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="96dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="138dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:onClick="goToActivity2"
+                    android:text="@string/On_click"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="123dp"
+                    tools:layout_editor_absoluteY="223dp" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
