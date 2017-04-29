@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Zametki</string>
+    <string name="On_click">ВХОД</string>
+    <string name="delate_yes">ДА</string>
+    <string name="delate_no">НЕТ</string>
+
+</resources>
